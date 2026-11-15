@@ -99,7 +99,9 @@ A pipeline that turns text into a lip-synced presenter video. It combines Coqui 
 
 ## AI security
 
-AI applied to offensive and defensive security: automating the tools, the bug detection and the triage. It also covers securing AI itself, meaning LLMs, RAG pipelines and agentic systems. Cards are color-coded by team: red for offensive, blue for defensive, purple for AI and LLM security.
+Two sides of the same field: using AI to secure systems, and securing the AI itself. On one side, AI automates the security tools, the bug detection and the triage. On the other, the work protects LLMs, RAG pipelines and AI agents from attacks such as prompt injection, data leakage and unsafe tool use.
+
+Cards are color-coded: red for offensive (red team), blue for defensive (blue team), purple for securing AI systems.
 
 <table>
   <tr>
