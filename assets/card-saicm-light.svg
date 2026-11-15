@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="230" viewBox="0 0 480 230">
+<rect x=".5" y=".5" width="479" height="229" rx="14" fill="#FFFFFF" stroke="#DDE1E4"/>
+<rect x="0" y="22" width="4" height="40" rx="2" fill="#0F766E"/>
+<text x="28" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" letter-spacing="2" fill="#0F766E">IN PRODUCTION · STUDENT PLATFORM</text>
+<text x="28" y="68" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#0B0F14">SAICM-SS</text>
+<text x="28" y="98" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A">The SAICM Student Society platform at LUC: events,</text>
+<text x="28" y="119" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A">sports sign-ups, news, a moderated community and chat,</text>
+<text x="28" y="140" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A">plus a committee console. Built as society director.</text>
+<rect x="28" y="160" width="40" height="22" rx="11" fill="none" stroke="#DDE1E4"/>
+<text x="37" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#0B0F14">Bun</text>
+<rect x="74.2" y="160" width="54" height="22" rx="11" fill="none" stroke="#DDE1E4"/>
+<text x="83.2" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#0B0F14">React</text>
+<rect x="134.4" y="160" width="68" height="22" rx="11" fill="none" stroke="#DDE1E4"/>
+<text x="143.4" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#0B0F14">Flutter</text>
+<rect x="208.6" y="160" width="54" height="22" rx="11" fill="none" stroke="#DDE1E4"/>
+<text x="217.6" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#0B0F14">MySQL</text>
+<rect x="268.8" y="160" width="68" height="22" rx="11" fill="none" stroke="#DDE1E4"/>
+<text x="277.8" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#0B0F14">Express</text>
+<circle cx="33" cy="206" r="4" fill="#0F766E"></circle>
+<text x="44" y="210" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#57606A">Live for SAICM students at LUC · web, Android, iOS</text>
+</svg>

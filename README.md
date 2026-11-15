@@ -74,12 +74,24 @@ I build AI systems that leave the notebook and do real work. That means voice ag
       </a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://saicmss.site/portal/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-saicm-dark.svg">
+          <img alt="SAICM-SS, student society platform" src="assets/card-saicm-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/DevByError/ai_video_gen">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="assets/card-videogen-dark.svg">
           <img alt="ai_video_gen" src="assets/card-videogen-light.svg" width="100%">
         </picture>
       </a>
+    </td>
+    <td width="50%" valign="top">
     </td>
   </tr>
 </table>
@@ -97,6 +109,9 @@ A reception robot for a university front desk. It notices people who stop in fro
 
 **[ai_video_gen](https://github.com/DevByError/ai_video_gen)** · generative AI<br>
 A pipeline that turns text into a lip-synced presenter video. It combines Coqui text-to-speech, Wav2Lip and SadTalker for face animation, GFPGAN for face restoration and generated slides, behind a FastAPI service with a RunPod GPU deployment script.
+
+**[SAICM-SS](https://saicmss.site/portal/)** · student platform in production<br>
+The platform of the SAICM Student Society at Lincoln University College, which I built as my first task after being appointed the society's Academic & Innovation Director. Students get one place on the web, Android and iOS for events, sports sign-ups, news, a community feed with private chat and direct feedback to the committee, and the committee gets a console for the student register, roles, content, entries and moderation. Community posts are checked by an AI moderation model. It runs on Bun, Express 5 and MySQL 8 with about 120 API endpoints, React 19 on the web and Flutter on mobile, and it was load tested at 1,000 concurrent users with 0% errors. The source is private.
 
 ## AI security
 
@@ -130,7 +145,7 @@ These systems are live and used by real organizations. Where the source is priva
 |---|---|---|---|
 | **[LUC Registration Portal](https://github.com/DevByError/luc-reg-automation)** | One-screen student registration for staff at Lincoln University College. Registration time went from about 15 minutes to about 3. | React, TypeScript, Playwright | ![Live](https://img.shields.io/badge/live-2ea043?style=flat-square) Public repo |
 | **[QMS, Queue Management System](https://luc.techvisionsoft.com/login)** | Queue management for student services: tickets, service counters, bookings, QR check-in, ratings and live display screens. | Next.js, Express, MySQL, Socket.IO | ![Live](https://img.shields.io/badge/live-2ea043?style=flat-square) ![Private](https://img.shields.io/badge/private-555?style=flat-square) |
-| **[SAICM Student Portal](https://saicmss.site)** | Student web portal for events, sports, society news and profiles, alongside the SAICM phone app. | Web app | ![Live](https://img.shields.io/badge/live-2ea043?style=flat-square) ![Private](https://img.shields.io/badge/private-555?style=flat-square) |
+| **[SAICM-SS, student society platform](https://saicmss.site/portal/)** | The SAICM Student Society platform at Lincoln University College: events, sports sign-ups, news, a moderated community and chat for students, and a console for the committee. Web, Android and iOS. | Bun, Express, MySQL, React, Flutter | ![Live](https://img.shields.io/badge/live-2ea043?style=flat-square) ![Private](https://img.shields.io/badge/private-555?style=flat-square) |
 | **[Yalla Habibi](https://new.yallahabibi.com.my/)** | Website for a Middle Eastern restaurant in Malaysia. | Web | ![Live](https://img.shields.io/badge/live-2ea043?style=flat-square) ![Private](https://img.shields.io/badge/private-555?style=flat-square) |
 
 ## More projects
