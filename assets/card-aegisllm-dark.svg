@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="230" viewBox="0 0 480 230">
+<rect x=".5" y=".5" width="479" height="229" rx="14" fill="#111821" stroke="#1F2A36"/>
+<rect x="0" y="22" width="4" height="40" rx="2" fill="#A78BFA"/>
+<text x="28" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" letter-spacing="2" fill="#A78BFA">SECURING AI · AI SECURITY</text>
+<text x="28" y="68" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#E6EDF3">AegisLLM</text>
+<text x="28" y="98" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8B98A5">Security gateway for LLM, RAG and agent apps: blocks</text>
+<text x="28" y="119" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8B98A5">prompt injection, drops poisoned documents, redacts</text>
+<text x="28" y="140" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8B98A5">secrets and controls what agents are allowed to do.</text>
+<rect x="28" y="160" width="61" height="22" rx="11" fill="none" stroke="#1F2A36"/>
+<text x="37" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#E6EDF3">Python</text>
+<rect x="95.2" y="160" width="68" height="22" rx="11" fill="none" stroke="#1F2A36"/>
+<text x="104.2" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#E6EDF3">FastAPI</text>
+<rect x="169.4" y="160" width="61" height="22" rx="11" fill="none" stroke="#1F2A36"/>
+<text x="178.4" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#E6EDF3">Ollama</text>
+<rect x="236.6" y="160" width="54" height="22" rx="11" fill="none" stroke="#1F2A36"/>
+<text x="245.6" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#E6EDF3">OWASP</text>
+<rect x="296.8" y="160" width="40" height="22" rx="11" fill="none" stroke="#1F2A36"/>
+<text x="305.8" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#E6EDF3">LLM</text>
+<circle cx="33" cy="206" r="4" fill="#A78BFA"></circle>
+<text x="44" y="210" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#8B98A5">Red-team evaluated against the OWASP LLM Top 10</text>
+</svg>

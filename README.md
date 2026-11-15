@@ -130,12 +130,21 @@ Cards are color-coded: red for offensive (red team), blue for defensive (blue te
       </a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/DevByError/aegisllm">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-aegisllm-dark.svg">
+          <img alt="AegisLLM" src="assets/card-aegisllm-light.svg" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
 
 **[PenTriage AI](https://github.com/DevByError/pentriage-ai)** · red team<br>
 You give it a target that is in scope. It runs subfinder, httpx, and then nuclei, katana, nmap and testssl in parallel, merges and de-duplicates the results, and has a local Qwen 2.5 model review each finding type like a senior security engineer: real or false positive, confidence, severity, impact, fix and safe verification steps. It is grounded in a local OWASP and PortSwigger knowledge base, so a normal run costs no API tokens, with an optional Claude second opinion for uncertain findings. Output is an HTML report and a local dashboard, and new tools plug in as plugins.
+
+**[AegisLLM](https://github.com/DevByError/aegisllm)** · securing AI<br>
+A security gateway that sits between an LLM, RAG or agent app and the model, through an OpenAI-compatible API. It blocks prompt injection (including spaced-out, leetspeak, base64 and invisible-Unicode forms), removes poisoned documents and tool results before the model reads them, redacts secrets and personal data in both directions, enforces a tool-call policy with a human approval queue, detects system-prompt leaks with a canary, strips data-stealing links and logs every decision. In a red-team suite of 61 attacks mapped to the OWASP Top 10 for LLM Applications, the rules alone caught 48 and rules plus a local model judge caught 57, with no benign case blocked in either setup. Runs fully locally with Ollama.
 
 ## Running in production
 
