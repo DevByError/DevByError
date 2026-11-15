@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="#featured-work">Featured work</a> ·
+  <a href="#ai-security">AI security</a> ·
   <a href="#running-in-production">In production</a> ·
   <a href="#more-projects">More projects</a> ·
   <a href="#activity">Activity</a> ·
@@ -19,7 +20,7 @@
 
 I build AI systems that leave the notebook and do real work. That means voice agents that hold a conversation at a front desk, machine-learning studies that are honest about what a model has actually learned, and automation that staff at a university use every day.
 
-- **Applied AI:** speech-to-text, LLM pipelines with retrieval, text-to-speech, computer vision
+- **Applied AI:** speech-to-text, LLM pipelines with retrieval, text-to-speech, computer vision, AI for security testing
 - **Machine learning and research:** feature engineering, model evaluation, explainability
 - **Production software:** full-stack web apps and workflow automation running for real organizations
 
@@ -95,6 +96,28 @@ A reception robot for a university front desk. It notices people who stop in fro
 
 **[ai_video_gen](https://github.com/DevByError/ai_video_gen)** · generative AI<br>
 A pipeline that turns text into a lip-synced presenter video. It combines Coqui text-to-speech, Wav2Lip and SadTalker for face animation, GFPGAN for face restoration and generated slides, behind a FastAPI service with a RunPod GPU deployment script.
+
+## AI security
+
+AI applied to offensive and defensive security: automating the tools, the bug detection and the triage. Cards are color-coded by team: red for offensive, blue for defensive.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/DevByError/pentriage-ai">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-pentriage-dark.svg">
+          <img alt="PenTriage AI" src="assets/card-pentriage-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+    </td>
+  </tr>
+</table>
+
+**[PenTriage AI](https://github.com/DevByError/pentriage-ai)** · red team<br>
+You give it a target that is in scope. It runs subfinder, httpx, and then nuclei, katana, nmap and testssl in parallel, merges and de-duplicates the results, and has a local Qwen 2.5 model review each finding type like a senior security engineer: real or false positive, confidence, severity, impact, fix and safe verification steps. It is grounded in a local OWASP and PortSwigger knowledge base, so a normal run costs no API tokens, with an optional Claude second opinion for uncertain findings. Output is an HTML report and a local dashboard, and new tools plug in as plugins.
 
 ## Running in production
 
