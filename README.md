@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/albara-nasr-629997267"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Albara%20Nasr-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/albara-ahmed-629997267/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Albara%20Nasr-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:baranasrmohamed@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact%20me-0F766E?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://drive.google.com/drive/folders/1f1MNVcAw_kK2owNTZFyD79Iwq27_XOQJ?usp=sharing"><img alt="CV" src="https://img.shields.io/badge/CV-Download-F5B83D?style=for-the-badge&logo=googledrive&logoColor=black"></a>
 </p>
@@ -140,4 +140,4 @@ These systems are live and used by real organizations. Where the source is priva
 
 ## Let's talk
 
-Open to AI engineering roles, research collaborations and production projects. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/albara-nasr-629997267) or [email](mailto:baranasrmohamed@gmail.com).
+Open to AI engineering roles, research collaborations and production projects. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/albara-ahmed-629997267/) or [email](mailto:baranasrmohamed@gmail.com).
